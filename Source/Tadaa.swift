@@ -16,7 +16,7 @@ public class Tadaa {
     
     var designDirectory = "Designs"
     
-    init(designDirectory dir: String = "Designs") {
+    public init(designDirectory dir: String = "Designs") {
         designDirectory = dir
         setupViews()
     }
