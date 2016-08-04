@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Tadaa.xcscheme</key>
+		<key>TadaaExample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>454F1C211D4F952900A1168A</key>
+		<key>4501B70D1D536EE9004FF700</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Tadaa
+//  TadaaExample
 //
-//  Created by Roel Spruit on 01/08/16.
+//  Created by Roel Spruit on 04/08/16.
 //  Copyright © 2016 Dinkywonder. All rights reserved.
 //
 

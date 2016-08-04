@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		454F1C261D4F952900A1168A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454F1C251D4F952900A1168A /* AppDelegate.swift */; };
-		454F1C281D4F952900A1168A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454F1C271D4F952900A1168A /* ViewController.swift */; };
-		454F1C2B1D4F952900A1168A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454F1C291D4F952900A1168A /* Main.storyboard */; };
-		454F1C2D1D4F952900A1168A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454F1C2C1D4F952900A1168A /* Assets.xcassets */; };
-		454F1C301D4F952900A1168A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454F1C2E1D4F952900A1168A /* LaunchScreen.storyboard */; };
-		454F1C381D4F955C00A1168A /* TadaaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454F1C371D4F955C00A1168A /* TadaaViewController.swift */; };
+		4501B7121D536EE9004FF700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4501B7111D536EE9004FF700 /* AppDelegate.swift */; };
+		4501B7141D536EE9004FF700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4501B7131D536EE9004FF700 /* ViewController.swift */; };
+		4501B7171D536EE9004FF700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4501B7151D536EE9004FF700 /* Main.storyboard */; };
+		4501B7191D536EE9004FF700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4501B7181D536EE9004FF700 /* Assets.xcassets */; };
+		4501B71C1D536EE9004FF700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4501B71A1D536EE9004FF700 /* LaunchScreen.storyboard */; };
+		459816C61D536FA500E1CF11 /* Designs in Resources */ = {isa = PBXBuildFile; fileRef = 459816C51D536FA500E1CF11 /* Designs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		454F1C221D4F952900A1168A /* Tadaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tadaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		454F1C251D4F952900A1168A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		454F1C271D4F952900A1168A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		454F1C2A1D4F952900A1168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		454F1C2C1D4F952900A1168A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		454F1C2F1D4F952900A1168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		454F1C311D4F952900A1168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		454F1C371D4F955C00A1168A /* TadaaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TadaaViewController.swift; sourceTree = "<group>"; };
+		4501B70E1D536EE9004FF700 /* TadaaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TadaaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4501B7111D536EE9004FF700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4501B7131D536EE9004FF700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4501B7161D536EE9004FF700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4501B7181D536EE9004FF700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4501B71B1D536EE9004FF700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4501B71D1D536EE9004FF700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459816C51D536FA500E1CF11 /* Designs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Designs; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		454F1C1F1D4F952900A1168A /* Frameworks */ = {
+		4501B70B1D536EE9004FF700 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		454F1C191D4F952900A1168A = {
+		4501B7051D536EE8004FF700 = {
 			isa = PBXGroup;
 			children = (
-				454F1C241D4F952900A1168A /* Tadaa */,
-				454F1C231D4F952900A1168A /* Products */,
+				4501B7101D536EE9004FF700 /* TadaaExample */,
+				4501B70F1D536EE9004FF700 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		454F1C231D4F952900A1168A /* Products */ = {
+		4501B70F1D536EE9004FF700 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				454F1C221D4F952900A1168A /* Tadaa.app */,
+				4501B70E1D536EE9004FF700 /* TadaaExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		454F1C241D4F952900A1168A /* Tadaa */ = {
+		4501B7101D536EE9004FF700 /* TadaaExample */ = {
 			isa = PBXGroup;
 			children = (
-				454F1C251D4F952900A1168A /* AppDelegate.swift */,
-				454F1C271D4F952900A1168A /* ViewController.swift */,
-				454F1C291D4F952900A1168A /* Main.storyboard */,
-				454F1C2C1D4F952900A1168A /* Assets.xcassets */,
-				454F1C2E1D4F952900A1168A /* LaunchScreen.storyboard */,
-				454F1C311D4F952900A1168A /* Info.plist */,
-				454F1C371D4F955C00A1168A /* TadaaViewController.swift */,
+				459816C51D536FA500E1CF11 /* Designs */,
+				4501B7111D536EE9004FF700 /* AppDelegate.swift */,
+				4501B7131D536EE9004FF700 /* ViewController.swift */,
+				4501B7151D536EE9004FF700 /* Main.storyboard */,
+				4501B7181D536EE9004FF700 /* Assets.xcassets */,
+				4501B71A1D536EE9004FF700 /* LaunchScreen.storyboard */,
+				4501B71D1D536EE9004FF700 /* Info.plist */,
 			);
-			path = Tadaa;
+			path = TadaaExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		454F1C211D4F952900A1168A /* Tadaa */ = {
+		4501B70D1D536EE9004FF700 /* TadaaExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 454F1C341D4F952900A1168A /* Build configuration list for PBXNativeTarget "Tadaa" */;
+			buildConfigurationList = 4501B7201D536EE9004FF700 /* Build configuration list for PBXNativeTarget "TadaaExample" */;
 			buildPhases = (
-				454F1C1E1D4F952900A1168A /* Sources */,
-				454F1C1F1D4F952900A1168A /* Frameworks */,
-				454F1C201D4F952900A1168A /* Resources */,
+				4501B70A1D536EE9004FF700 /* Sources */,
+				4501B70B1D536EE9004FF700 /* Frameworks */,
+				4501B70C1D536EE9004FF700 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Tadaa;
-			productName = Tadaa;
-			productReference = 454F1C221D4F952900A1168A /* Tadaa.app */;
+			name = TadaaExample;
+			productName = TadaaExample;
+			productReference = 4501B70E1D536EE9004FF700 /* TadaaExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		454F1C1A1D4F952900A1168A /* Project object */ = {
+		4501B7061D536EE8004FF700 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Dinkywonder;
 				TargetAttributes = {
-					454F1C211D4F952900A1168A = {
+					4501B70D1D536EE9004FF700 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = 454F1C1D1D4F952900A1168A /* Build configuration list for PBXProject "Tadaa" */;
+			buildConfigurationList = 4501B7091D536EE8004FF700 /* Build configuration list for PBXProject "TadaaExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 454F1C191D4F952900A1168A;
-			productRefGroup = 454F1C231D4F952900A1168A /* Products */;
+			mainGroup = 4501B7051D536EE8004FF700;
+			productRefGroup = 4501B70F1D536EE9004FF700 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				454F1C211D4F952900A1168A /* Tadaa */,
+				4501B70D1D536EE9004FF700 /* TadaaExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		454F1C201D4F952900A1168A /* Resources */ = {
+		4501B70C1D536EE9004FF700 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454F1C301D4F952900A1168A /* LaunchScreen.storyboard in Resources */,
-				454F1C2D1D4F952900A1168A /* Assets.xcassets in Resources */,
-				454F1C2B1D4F952900A1168A /* Main.storyboard in Resources */,
+				459816C61D536FA500E1CF11 /* Designs in Resources */,
+				4501B71C1D536EE9004FF700 /* LaunchScreen.storyboard in Resources */,
+				4501B7191D536EE9004FF700 /* Assets.xcassets in Resources */,
+				4501B7171D536EE9004FF700 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		454F1C1E1D4F952900A1168A /* Sources */ = {
+		4501B70A1D536EE9004FF700 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454F1C281D4F952900A1168A /* ViewController.swift in Sources */,
-				454F1C381D4F955C00A1168A /* TadaaViewController.swift in Sources */,
-				454F1C261D4F952900A1168A /* AppDelegate.swift in Sources */,
+				4501B7141D536EE9004FF700 /* ViewController.swift in Sources */,
+				4501B7121D536EE9004FF700 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		454F1C291D4F952900A1168A /* Main.storyboard */ = {
+		4501B7151D536EE9004FF700 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				454F1C2A1D4F952900A1168A /* Base */,
+				4501B7161D536EE9004FF700 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		454F1C2E1D4F952900A1168A /* LaunchScreen.storyboard */ = {
+		4501B71A1D536EE9004FF700 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				454F1C2F1D4F952900A1168A /* Base */,
+				4501B71B1D536EE9004FF700 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		454F1C321D4F952900A1168A /* Debug */ = {
+		4501B71E1D536EE9004FF700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		454F1C331D4F952900A1168A /* Release */ = {
+		4501B71F1D536EE9004FF700 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,24 +249,24 @@
 			};
 			name = Release;
 		};
-		454F1C351D4F952900A1168A /* Debug */ = {
+		4501B7211D536EE9004FF700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Tadaa/Info.plist;
+				INFOPLIST_FILE = TadaaExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nl.dinkywonder.Tadaa;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dinkywonder.TadaaExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		454F1C361D4F952900A1168A /* Release */ = {
+		4501B7221D536EE9004FF700 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Tadaa/Info.plist;
+				INFOPLIST_FILE = TadaaExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nl.dinkywonder.Tadaa;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dinkywonder.TadaaExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -274,24 +274,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		454F1C1D1D4F952900A1168A /* Build configuration list for PBXProject "Tadaa" */ = {
+		4501B7091D536EE8004FF700 /* Build configuration list for PBXProject "TadaaExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				454F1C321D4F952900A1168A /* Debug */,
-				454F1C331D4F952900A1168A /* Release */,
+				4501B71E1D536EE9004FF700 /* Debug */,
+				4501B71F1D536EE9004FF700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		454F1C341D4F952900A1168A /* Build configuration list for PBXNativeTarget "Tadaa" */ = {
+		4501B7201D536EE9004FF700 /* Build configuration list for PBXNativeTarget "TadaaExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				454F1C351D4F952900A1168A /* Debug */,
-				454F1C361D4F952900A1168A /* Release */,
+				4501B7211D536EE9004FF700 /* Debug */,
+				4501B7221D536EE9004FF700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 454F1C1A1D4F952900A1168A /* Project object */;
+	rootObject = 4501B7061D536EE8004FF700 /* Project object */;
 }
