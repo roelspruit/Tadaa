@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import Tadaa
 
 class ViewController: UIViewController {
 
-    private tadaa = Tadaa()
+    private let tadaa = Tadaa()
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
