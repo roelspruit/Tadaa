@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Tadaa'
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.license = 'MIT'
   s.summary = 'A helper class to quickly overlay a design on a viewcontroller'
   s.homepage = 'https://github.com/roelspruit/Tadaa'
