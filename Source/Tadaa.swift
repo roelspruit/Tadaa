@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Tadaa {
+public class Tadaa {
     
     private let scrollView = UIScrollView()
     private let imgView = UIImageView()
@@ -38,7 +38,7 @@ class Tadaa {
         return images
     }
     
-    func showDesignsForViewController(viewController: UIViewController) {
+    public func showDesignsForViewController(viewController: UIViewController) {
         viewControllerName = String(Mirror(reflecting: viewController).subjectType)
         
         var designs = [UIImage]()

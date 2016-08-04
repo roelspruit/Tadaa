@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A90B0302D33E8177149A7A2 /* Pods_TadaaExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE8F8D4FE26F18EAEC29C8B /* Pods_TadaaExample.framework */; };
 		4501B7121D536EE9004FF700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4501B7111D536EE9004FF700 /* AppDelegate.swift */; };
 		4501B7141D536EE9004FF700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4501B7131D536EE9004FF700 /* ViewController.swift */; };
 		4501B7171D536EE9004FF700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4501B7151D536EE9004FF700 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F44A52C43993624AD6BC620 /* Pods-TadaaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaaExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TadaaExample/Pods-TadaaExample.release.xcconfig"; sourceTree = "<group>"; };
 		4501B70E1D536EE9004FF700 /* TadaaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TadaaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4501B7111D536EE9004FF700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4501B7131D536EE9004FF700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		4501B71B1D536EE9004FF700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4501B71D1D536EE9004FF700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		459816C51D536FA500E1CF11 /* Designs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Designs; sourceTree = SOURCE_ROOT; };
+		AAE8F8D4FE26F18EAEC29C8B /* Pods_TadaaExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TadaaExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA7E8B8A6C4B38A42AC3EEB /* Pods-TadaaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TadaaExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TadaaExample/Pods-TadaaExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A90B0302D33E8177149A7A2 /* Pods_TadaaExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				4501B7101D536EE9004FF700 /* TadaaExample */,
 				4501B70F1D536EE9004FF700 /* Products */,
+				824CCA09DB375575C09E91BE /* Pods */,
+				9EA2AEBCA7FDF97B1512A661 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = TadaaExample;
 			sourceTree = "<group>";
 		};
+		824CCA09DB375575C09E91BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7E8B8A6C4B38A42AC3EEB /* Pods-TadaaExample.debug.xcconfig */,
+				2F44A52C43993624AD6BC620 /* Pods-TadaaExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EA2AEBCA7FDF97B1512A661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAE8F8D4FE26F18EAEC29C8B /* Pods_TadaaExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4501B7201D536EE9004FF700 /* Build configuration list for PBXNativeTarget "TadaaExample" */;
 			buildPhases = (
+				2D989BEE48506F32955102CB /* [CP] Check Pods Manifest.lock */,
 				4501B70A1D536EE9004FF700 /* Sources */,
 				4501B70B1D536EE9004FF700 /* Frameworks */,
 				4501B70C1D536EE9004FF700 /* Resources */,
+				A6711E11DD17E44DE2CB1198 /* [CP] Embed Pods Frameworks */,
+				49B2848BFBF4E3B43EAC9BA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D989BEE48506F32955102CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49B2848BFBF4E3B43EAC9BA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TadaaExample/Pods-TadaaExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6711E11DD17E44DE2CB1198 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TadaaExample/Pods-TadaaExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4501B70A1D536EE9004FF700 /* Sources */ = {
@@ -251,6 +326,7 @@
 		};
 		4501B7211D536EE9004FF700 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA7E8B8A6C4B38A42AC3EEB /* Pods-TadaaExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TadaaExample/Info.plist;
@@ -262,6 +338,7 @@
 		};
 		4501B7221D536EE9004FF700 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F44A52C43993624AD6BC620 /* Pods-TadaaExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TadaaExample/Info.plist;
