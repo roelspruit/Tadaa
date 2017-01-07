@@ -11,9 +11,9 @@ import Tadaa
 
 class ViewController: UIViewController {
 
-    private let tadaa = Tadaa()
+    fileprivate let tadaa = Tadaa()
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         tadaa.showDesignsForViewController(self)
